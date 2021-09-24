@@ -1,70 +1,21 @@
-body {
-    font-family: 'Times New Roman', Times, serif;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
-.wrapper {
-    width: 80%;
-    margin: 0 auto; /* gives extra lines */
-    display: flex;
+html {
+    font-size: 14px;
 }
 
-.control, .results {
-    flex: 1;
-    padding: 10px;
-}
-
-form p:nth-of-type(1) {
-    margin-top: 0;
-}
-
-.h1 {
+h4 {
     text-align: center;
-}
-.h3 {
     font-size: 20px;
 }
 
-article p {
-    font-size: 14px;
-    line-height: 1.5;
-}
-
-article p:nth-of-type(2) {
-    font-size: 14px;
-    line-height: 2;
-}
-
-nav {
-    margin-bottom: 50px;
-}
-
-.prev {
-    float: left;
-}
-
-.next {
-    float: right;
-}
-
-article {
+section {
     padding: 10px;
     margin-bottom: 20px;
     background-color: #ddd;
     border: 1px solid #ccc;
 }
 
-img {
-    float: right;
-    margin-left: 20px;
-    max-width: 200px;
-}
-
-.clearfix {
-    clear: both;
-}
-
-span {
-    background-color: #ccc;
-    padding: 5px;
-    margin: 5px;
-}
